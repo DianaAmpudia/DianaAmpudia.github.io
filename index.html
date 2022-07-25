@@ -36,7 +36,7 @@
          <input type="text" id="cardLastName" name="lastname">
           <br>
          <p>Número de Tarjeta:</p>
-          <input type="text" id="cardNumber" maxlength="16" pattern="^[0-9]*$" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+          <input type="text" id="cardNumber" maxlength="16" pattern="[0-9]+" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
         
            <div class="boton" align="center">
            <br><button type="submit" class="btnValidar" id="btnValidar">VALIDAR</button><br>    
