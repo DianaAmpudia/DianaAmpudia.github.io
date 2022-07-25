@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1602536100338-c7762727ddb7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+    font-family: 'Raleway', sans-serif; 
+}
+
+header {
+    width: 1200px;
+    font-weight: bold;
+}
+
+.container1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 447.09px;
+    height: 600px;
+    left: 650.18px;
+    top: 80.08px;
+    background: #FFFFFF;
+    border: 18px solid #DFC7B9;
+    border-radius: 35px;
+}
+
+.container-compra {
+    box-sizing: border-box;
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    left: 200.18px;
+    top: 80.08px;
+    background: #FFFFFF;
+    border: 18px solid #DFC7B9;
+    border-radius: 35px;
+}
+
+#btnValidar {
+    background: #DFC7B9;
+    font-size: 12px;
+    width: 93.94px;
+    height: 28.2px;
+    left: 605.92px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#cardName {
+    background:#FBF0EA;
+    width: 330.94px;
+}
+
+#cardLastName {
+    background: #FBF0EA;
+    width: 330.94px;
+}
+
+#cardNumber {
+    background: #FBF0EA;
+    width: 330.94px;
+}
+
+#mensaje1 {
+    font-weight: bold;
+    color: #a30949;
+}
