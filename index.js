@@ -18,15 +18,15 @@ function validarNumTarjeta() {
     //Condicionales anidados
   
   } else if (validator.isValid(creditCardNumber.value)){
-       mValido.innerHTML="TU TARJETA FUE VALIDADA CON EXITO."
+       mValido.innerHTML="TU TARJETA FUE VALIDADA CON ÉXITO."
        mValido2.innerHTML= "Puedes continuar con tu compra."
   
   
        creditCardNumber.value= validator.maskify(creditCardNumber.value);
    }
     else{
-      mInvalido.innerHTML="TU TARJETA NO ES VALIDA"
-      mInvalido2.innerHTML="Por favor verifica tu datos o ingresa otra tarjeta para poder continuar con tu compra."
+      mInvalido.innerHTML="TU TARJETA NO ES VÁLIDA"
+      mInvalido2.innerHTML="Por favor, verifica tus datos o ingresa otra tarjeta para poder continuar con tu compra."
   
       creditCardNumber.value= validator.maskify(creditCardNumber.value);
     }
